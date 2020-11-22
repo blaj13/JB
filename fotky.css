@@ -5,7 +5,6 @@
     width: 1300px;
     max-width: 100%;
     margin: 0 auto;
-
 }
 
 main{
@@ -15,7 +14,6 @@ main{
     padding: 30px;
     font-family: 'Rubik', sans-serif;
     margin: 0 30px;
-
 }
 
 h1 {
@@ -26,18 +24,18 @@ h1 {
     background: rgba(96,6,124,0.5);
     margin: 0 30px;
 }
+
 .fotografie {
     height: 200px;
     margin: 30px 150px;
     display: block;
-
 }
+
 .fotografie img {
     border-radius: 20px;
     opacity: 0.5;
     box-shadow: 1px 3px 5px;
 }
-
 
 .fotografie img:hover{
     opacity: 1;
@@ -54,8 +52,8 @@ h1 {
 a:hover{
     color: rgb(96,6,124);
     font-size:24pt;
-
 }
+
 .copyright {
     text-align: left;
     font-size: 15px;

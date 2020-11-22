@@ -6,6 +6,7 @@
     max-width: 100%;
     margin: 0 auto;
 }
+
 nav{
     background: rgba(96,6,124,0.5);
 }
@@ -29,18 +30,19 @@ nav ul li a{
     font-size: 20px;
     text-decoration: underline;
 }
+
 nav ul li a.active{
     color: rgb(96,6,124);
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     text-decoration: none;
 }
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
-
 
 a:hover{
     color: rgb(96,6,124);
@@ -88,8 +90,8 @@ main{
     text-decoration: none;
     color: rebeccapurple;
     margin-left: 0;
-
 }
+
 .druhyinf li{
     width: 500px;
     border-bottom: 1px solid rebeccapurple;
@@ -98,7 +100,6 @@ main{
     margin-left: 550px;
     margin-top: -55px;
 }
-
 
 .copyright {
     text-align: left;
