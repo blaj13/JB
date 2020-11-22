@@ -76,7 +76,7 @@ main{
 }
 
 .prvniinf li{
-    width: 300px;
+    width: 500px;
     border-bottom: 1px solid rebeccapurple;
     list-style-type: none;
     position: relative;
@@ -89,16 +89,16 @@ main{
     margin-left: 0px;
 
 }
-
 .druhyinf li{
-    width: 300px;
+    width: 500px;
     border-bottom: 1px solid rebeccapurple;
     list-style-type: none;
     position: absolute;
-    margin-left: 350px;
+    margin-left: 550px;
     margin-top: -55px;
-
 }
+
+h2{ }
 
 .copyright {
     text-align: left;
