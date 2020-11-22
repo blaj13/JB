@@ -12,7 +12,7 @@ nav{
 
 nav ul{
     width: 1300px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 nav ul li {
@@ -49,12 +49,12 @@ a:hover{
 h1 {
     text-align: center;
     font-family: 'Rubik', sans-serif;
-    margin-top: 0px;
+    margin-top: 0;
     color: rgb(96, 6, 124);
 }
 .vzdelani {
    text-align: center;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 img {
@@ -64,6 +64,8 @@ img {
     float: left;
     margin-top: 30px;
     position: relative;
+    box-shadow: 1px 3px 5px;
+    margin-left: 5px;
 }
 
 img:hover{
