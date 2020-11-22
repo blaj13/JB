@@ -24,14 +24,14 @@ nav ul li {
 }
 
 nav ul li a{
-    color: black;
+    color: rgb(96,6,124);
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     text-decoration: underline;
 }
 nav ul li a.active{
-    color: rgba(96,6,124);
-    font-family: ;
+    color: rgb(96,6,124);
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     text-decoration: none;
 }
@@ -49,7 +49,6 @@ a:hover{
 
 h1 {
     text-align: left;
-    font-size: ;
     font-family: 'Rubik', sans-serif;
     margin-top: 0px;
     color: rgb(96,6,124);
@@ -103,7 +102,7 @@ h2{ }
 .copyright {
     text-align: left;
     font-size: 15px;
-    margin-left: 0;
+    margin-left: 10px;
     margin-top: 0;
     color: dimgray;
     position: absolute;

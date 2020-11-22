@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: black;
+    color: rgb(96,6,124);
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     text-decoration: underline;
@@ -43,16 +43,19 @@ nav ul li a.active{
 
 
 a:hover{
-    color: rgba(96,6,124);
+    color: rgb(96,6,124);
     font-size:24pt;
 }
 
 h1 {
     text-align: left;
-    font-size: ;
     font-family: 'Rubik', sans-serif;
     margin-top: 0px;
     color: rgb(96,6,124);
+
+}
+h2{
+    margin-top: 0px;
 }
 .joga {
     background:  rgba(96,6,124,0.5);
@@ -61,9 +64,8 @@ h1 {
     border-radius: 20px;
     width: 200px;
     height: 200px;
+    box-shadow: 1px 3px 5px;
 }
-
-h2{margin-top: 0px;}
 
 .cestovani {
     background:  rgba(96,6,124,0.5);
@@ -74,6 +76,7 @@ h2{margin-top: 0px;}
     height: 200px;
     margin-left: 230px;
     margin-top: -200px;
+    box-shadow: 1px 3px 5px;
 }
 .priroda {
     background:  rgba(96,6,124,0.5);
@@ -84,6 +87,7 @@ h2{margin-top: 0px;}
     height: 200px;
     margin-left: 230px;
     margin-top: 30px;
+    box-shadow: 1px 3px 5px;
 }
 .malovani {
     background: rgba(96,6,124,0.5);
@@ -93,6 +97,7 @@ h2{margin-top: 0px;}
     width: 200px;
     height: 200px;
     margin-top: 30px;
+    box-shadow: 1px 3px 5px;
 
 }
 img {
