@@ -76,11 +76,12 @@ main{
     height: 560px;
     padding: 30px;
     font-family: 'Rubik', sans-serif;
+    color: rgb(96,6,124);
 }
 
 .prvniinf li{
     width: 500px;
-    border-bottom: 1px solid rebeccapurple;
+    border-bottom: 1px solid rgb(96,6,124);
     list-style-type: none;
     position: relative;
     margin: 0;
@@ -88,13 +89,13 @@ main{
 
 .prvniinf li a{
     text-decoration: none;
-    color: rebeccapurple;
+    color: rgb(96,6,124);
     margin-left: 0;
 }
 
 .druhyinf li{
     width: 500px;
-    border-bottom: 1px solid rebeccapurple;
+    border-bottom: 1px solid rgb(96,6,124);
     list-style-type: none;
     position: absolute;
     margin-left: 550px;
