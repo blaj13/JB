@@ -16,7 +16,7 @@ nav ul{
 }
 
 nav ul li {
-    width: 310px;
+    width: 25%;
     list-style-type: none;
     float: left;
     text-align: center;
@@ -32,7 +32,7 @@ nav ul li a{
 nav ul li a.active{
     color: rgb(96,6,124);
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
 }
 .clearfix:after {
@@ -42,7 +42,7 @@ nav ul li a.active{
 }
 
 
-a:hover{
+nav ul li a:hover{
     color: rgb(96,6,124);
     font-size:24pt;
 }
@@ -52,8 +52,16 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 0;
     color: rgb(96,6,124);
-
 }
+.home{
+
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
 h2{
     margin-top: 0;
 }
@@ -106,22 +114,12 @@ img.fotojoga{
     margin-top: -430px;
     margin-right: 190px;
     width: 430px;
+
 }
 
-img {
-    border-radius: 20px;
-    width: 90px;
-    padding: 5px;
-    margin-left: 5px;
-    float: left;
-    margin-top: 30px;
-    position: relative;
-    box-shadow: 1px 3px 5px;
-}
 
-.foto a img:hover{
-    width: 100px;
-}
+
+
 
 main{
     background: url(pozadi.png);
@@ -140,3 +138,8 @@ main{
     color: dimgray;
     position: absolute;
 }
+@media only screen and (max-width: 1200px)  {
+    img.fotojoga{ display: none}
+}
+@media only screen and (max-width: 600px)  {
+nav ul li {float: none}}

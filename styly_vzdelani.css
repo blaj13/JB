@@ -6,6 +6,15 @@
     max-width: 100%;
     margin: 0 auto;
 }
+
+.home{
+
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
 nav{
     background: rgba(96,6,124,0.5);
 }
@@ -16,7 +25,7 @@ nav ul{
 }
 
 nav ul li {
-    width: 310px;
+    width: 25%;
     list-style-type: none;
     float: left;
     text-align: center;
@@ -31,7 +40,7 @@ nav ul li a{
 }
 nav ul li a.active{
     color: rgb(96,6,124);
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
 }
 .clearfix:after {
@@ -41,7 +50,7 @@ nav ul li a.active{
 }
 
 
-a:hover{
+nav ul li a:hover{
     color: rgb(96,6,124);
     font-size:24pt;
 }
@@ -55,22 +64,12 @@ h1 {
 .vzdelani {
    text-align: center;
     margin: 0 auto;
+    padding: 20px;
+    border-spacing: 1px;
+    border: 1px solid black;
 }
 
-img {
-    border-radius: 20px;
-    width: 90px;
-    padding: 5px;
-    float: left;
-    margin-top: 30px;
-    position: relative;
-    box-shadow: 1px 3px 5px;
-    margin-left: 5px;
-}
 
-img:hover{
-    width: 100px;
-}
 
 main{
     background: url(pozadi.png);
@@ -94,3 +93,6 @@ main{
     color: dimgray;
     position: absolute;
 }
+
+@media only screen and (max-width: 600px)  {
+    nav ul li {float: none}}

@@ -17,7 +17,7 @@
  }
 
  nav ul li {
-     width: 310px;
+     width: 25%;
      list-style-type: none;
      float: left;
      text-align: center;
@@ -34,7 +34,7 @@ nav ul li a{
 nav ul li a.active{
     color: rgb(96,6,124);
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ nav ul li a.active{
     clear: both;
 }
 
-a:hover{
+nav ul li a:hover{
     color: rgb(96,6,124);
     font-size:24pt;
 }
@@ -66,15 +66,18 @@ img {
     box-shadow: 1px 3px 5px;
 
 }
-
-img:hover{
-    width: 220px;
+.foto img{
+    margin: 10px auto;
+}
+.foto{
+    text-align: center;
 }
 
 main{
     background: url(pozadi.png);
     background-size: 100%;
     margin-top: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 .kontakt {
@@ -91,3 +94,5 @@ footer {
     color: dimgray;
 }
 
+@media only screen and (max-width: 600px)  {
+    nav ul li {float: none}}
